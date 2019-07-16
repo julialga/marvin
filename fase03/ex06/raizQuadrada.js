@@ -1,3 +1,3 @@
 function raizQuadrada(n1) {
-    return n1*n1
+    return Math.sqrt(n1)
 }
