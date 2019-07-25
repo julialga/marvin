@@ -1,4 +1,3 @@
-function classificar(x) {
-     return  x.sort()   
+function classificar(array) {
+     return  array.sort()   
     }
-
