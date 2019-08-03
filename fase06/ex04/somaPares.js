@@ -1,25 +1,22 @@
 function somaPares(n1, n2) {
   var x = Math.ceil(n1);
     var y = Math.round(n2); 
-    var numeroMenor, numeroMaior;
+    var nMe, nMa;
      var total = 0
     
     if ( x < y){
-    numeroMenor = x;
-    numeroMaior = y;
+    nMe = x;
+    nMa = y;
     } else {
-    numeroMenor = y;
-    numeroMaior = x;
+    nMe = y;
+    nMa = x;
     }
    
-   while (numeroMenor <= numeroMaior){
-    if (numeroMenor % 2 === 0) {
-        total += numeroMenor;
+   while (nMe <= nMa){
+    if (nMe % 2 === 0) {
+        total += nMe;
     }
-    numeroMenor++
+    nMe++
     }
   return total;
 }
-
-    
-    
