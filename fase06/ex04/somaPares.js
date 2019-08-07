@@ -1,6 +1,6 @@
 function somaPares(n1, n2) {
   var x = Math.ceil(n1);
-    var y = Math.round(n2); 
+    var y = Math.floor(n2); 
     var nMe, nMa;
      var total = 0
     
@@ -16,7 +16,7 @@ function somaPares(n1, n2) {
     if (nMe % 2 === 0) {
         total += nMe;
     }
-    nMe++
+    nMe++ 
     }
   return total;
 }
